@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Syncognito App Changelog</title>
+    <link>https://apps.schlingel.io/syncognito/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <!-- Latest Version -->
+    <item>
+      <title>Version 1.0.0</title>
+      <link>https://apps.schlingel.io/syncognito/</link>
+      <sparkle:version>1.0.0</sparkle:version>
+      <sparkle:versionString>1.0.0</sparkle:versionString>
+      <description><![CDATA[
+        <h2>Initial Release</h2>
+        <ul>
+          <li>Real-time folder monitoring with FSEvents</li>
+          <li>Automatic sync to external drives, NAS, or any folder</li>
+          <li>Multiple sync jobs support</li>
+          <li>Configurable sync intervals</li>
+          <li>Menubar integration with animated sync indicator</li>
+          <li>Progress tracking for sync operations</li>
+          <li>Security-scoped bookmarks for persistent access</li>
+        </ul>
+      ]]></description>
+      <pubDate>Wed, 05 Mar 2025 13:00:00 +0000</pubDate>
+      <enclosure url="https://apps.schlingel.io/syncognito/Syncognito-1.0.0.dmg"
+                 sparkle:edSignature="TODO_GENERATE_SIGNATURE"
+                 sparkle:version="1.0.0"
+                 sparkle:versionString="1.0.0"
+                 length="TODO_FILE_SIZE"
+                 type="application/octet-stream" />
+    </item>
+
+  </channel>
+</rss>
