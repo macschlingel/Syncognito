@@ -48,7 +48,7 @@ struct SettingsView: View {
             .padding()
         }
         .padding()
-        .frame(minWidth: 500, idealWidth: 600, maxHeight: 450)
+        .frame(width: 600, height: 450)
         .sheet(isPresented: $showingAddJob) {
             AddJobView(syncManager: syncManager)
         }
